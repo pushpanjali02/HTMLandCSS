@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        background-color: wheat;
+        flex-wrap: nowrap;
+    }
+    .flex-container >p {
+        background-color: dimgrey;
+        font-family: cursive;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        
+    }
+    .flex-container2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color:lavender;
+    }
+    .flex-container2 >p {
+        background-color:violet;
+        font-family: cursive;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .flex-container3{
+        display: flex;
+        background-color: gold;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .flex-container3 > p{
+        font-family: cursive;
+        background-color: aqua;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .flex-container4{
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: end;
+        background-color: aliceblue;
+    }
+    .flex-container4 > p{
+        background-color: brown;
+        margin:10px;
+        font-size:30px;
+        padding:20px;
+        font-family: cursive;
+    }
+
+</style>
+<body>
+    <h1 style="font-family: cursive;">USING CSS FLEX BOX PROPERTY-ROW</h1>
+    <div class="flex-container">
+        <p>ITEM 1</p>
+        <p>ITEM 2</p>
+        <p>ITEM 3</p>
+        <p>ITEM 4</p>
+        <p>ITEM 5</p>
+        <p>ITEM 6</p>
+        <p>ITEM 7</p>
+        <p>ITEM 8</p>
+        <p>ITEM 9</p>
+        <p>ITEM 10</p>
+        <p>ITEM 11</p>
+        <p>ITEM 12</p>
+        <p>ITEM 13</p>
+        <p>ITEM 14</p>
+        <p>ITEM 15</p>
+        <p>ITEM 16</p>
+        <p>ITEM 17</p>
+    </div>
+    <h1 style="font-family: cursive;">USING CSS FLEX BOX PROPERTY-COLUMN</h1>
+    <div class="flex-container2">
+        <p>ITEM 1</p>
+        <p>ITEM 2</p>
+        <p>ITEM 3</p>
+        <p>ITEM 4</p>
+        <p>ITEM 5</p>
+        <p>ITEM 6</p>
+        <p>ITEM 7</p>
+        <p>ITEM 8</p>
+        <p>ITEM 9</p>
+        <p>ITEM 10</p>
+        <p>ITEM 11</p>
+        <p>ITEM 12</p>
+        <p>ITEM 13</p>
+        <p>ITEM 14</p>
+        <p>ITEM 15</p>
+        <p>ITEM 16</p>
+        <p>ITEM 17</p>
+    </div>
+    <h1 style="font-family: fantasy;">USING CSS FLEX BOX PROPERTY ROW REVERSE</h1>
+    <div class="flex-container3">
+        <p>ITEM 1</p>
+        <p>ITEM 2</p>
+        <p>ITEM 3</p>
+    </div>
+    <h1 style="font-family:fantasy;">USING CSS FLEX BOX PROPERTY COLUMN REVERSE</h1>
+    <div class="flex-container4">
+        <p>ITEM 1</p>
+        <p>ITEM 2</p>
+        <p>ITEM 3</p></div>
+    //we have flex-wrap: and justity-content, align-elements:,align-content:,overflow: properties also.
+</body>
+</html>

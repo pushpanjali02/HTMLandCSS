@@ -1,0 +1,21 @@
+p{
+    font-size: 120t;
+    font-family: cursive;
+    color: navy;
+}
+body{
+    background-color: wheat;
+}
+nav{
+    text-align: right;
+}
+#id1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+.classname{
+    box-shadow: 0lvw;
+    border-style: dashed;
+    border-color: fuchsia;
+    font-weight: bolder;
+}

@@ -1,0 +1,10 @@
+table,th,td{border: 5px solid black}
+body{
+    background-color: wheat;
+}
+p{
+    font-size: 15pt;
+    background-color:wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
